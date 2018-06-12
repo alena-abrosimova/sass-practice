@@ -10,7 +10,7 @@
 <div class="wrapper">
     <div class="first-screen">
         <nav class="nav view-port">
-            <div class="nav__brand">Ghost face</div>
+            <div class="nav__brand">Ghost Host</div>
             <ul class="nav__menu">
                 <li class="nav__item">
                     <a href="#" class="nav__link">
@@ -297,36 +297,42 @@
         </div>
     </section>
     <section class="slider">
-        <div class="slider__slide">
-            <div class="slider__quote">1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolores, ea fuga odit recusandae ut.</div>
+        <div class="slider__slide" data-slide="1">
+            <div class="slider__quote">
+                1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid earum eos esse eveniet inventore ipsam!
+            </div>
             <div class="slider__info">
                 <div class="slider__name">John Doe 1</div>
                 <div class="slider__icons">
-                    <div class="span slider__icon slider__icon--active"></div>
-                    <div class="span slider__icon"></div>
-                    <div class="span slider__icon"></div>
+                    <div class="span slider__icon slider__icon--active" data-id="1"></div>
+                    <div class="span slider__icon" data-id="2"></div>
+                    <div class="span slider__icon" data-id="3"></div>
                 </div>
             </div>
         </div>
-        <div class="slider__slide hide">
-            <div class="slider__quote">2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolores, ea fuga odit recusandae ut.</div>
+        <div class="slider__slide hide" data-slide="2">
+            <div class="slider__quote">
+                2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid earum eos esse eveniet inventore ipsam!
+            </div>
             <div class="slider__info">
                 <div class="slider__name">John Doe 2</div>
                 <div class="slider__icons">
-                    <div class="span slider__icon"></div>
-                    <div class="span slider__icon slider__icon--active"></div>
-                    <div class="span slider__icon"></div>
+                    <div class="span slider__icon" data-id="1"></div>
+                    <div class="span slider__icon slider__icon--active" data-id="2"></div>
+                    <div class="span slider__icon" data-id="3"></div>
                 </div>
             </div>
         </div>
-        <div class="slider__slide hide">
-            <div class="slider__quote">3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolores, ea fuga odit recusandae ut.</div>
+        <div class="slider__slide hide" data-slide="3">
+            <div class="slider__quote">
+                3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid earum eos esse eveniet inventore ipsam!
+            </div>
             <div class="slider__info">
                 <div class="slider__name">John Doe 3</div>
                 <div class="slider__icons">
-                    <div class="span slider__icon"></div>
-                    <div class="span slider__icon"></div>
-                    <div class="span slider__icon slider__icon--active"></div>
+                    <div class="span slider__icon" data-id="1"></div>
+                    <div class="span slider__icon" data-id="2"></div>
+                    <div class="span slider__icon slider__icon--active" data-id="3"></div>
                 </div>
             </div>
         </div>
@@ -363,7 +369,72 @@
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="footer__header view-por">
+            <div class="footer__brand">Ghost Host</div>
+            <ul class="footer__nav">
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">About Us</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Blog</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Policy</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__content view-port">
+            <div class="footer__block footer__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, blanditiis ipsa ipsum perspiciatis provident quos sed! Animi autem debitis esse fugiat harum, incidunt itaque laboriosam placeat quae repellendus. Mollitia, nobis!
+            </div>
+            <div class="footer__block footer__map">
+                <ul class="footer__list">
+                    <li class="list__item">
+                        <i class="fa fa-angle-right list__icon"></i><a href="#" class="list__link">Support</a>
+                    </li>
+                    <li class="list__item">
+                        <i class="fa fa-angle-right list__icon"></i><a href="#" class="list__link">Account</a>
+                    </li>
+                    <li class="list__item">
+                        <i class="fa fa-angle-right list__icon"></i><a href="#" class="list__link">Product Catalog</a>
+                    </li>
+                    <li class="list__item">
+                        <i class="fa fa-angle-right list__icon"></i><a href="#" class="list__link">Shortcodes</a>
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="list__item">
+                        <i class="fa fa-angle-right list__icon"></i><a href="#" class="list__link">Site Map</a>
+                    </li>
+                    <li class="list__item">
+                        <i class="fa fa-angle-right list__icon"></i><a href="#" class="list__link">Whois Search</a>
+                    </li>
+                    <li class="list__item">
+                        <i class="fa fa-angle-right list__icon"></i><a href="#" class="list__link">Web Mail</a>
+                    </li>
+                    <li class="list__item">
+                        <i class="fa fa-angle-right list__icon"></i><a href="#" class="list__link">Find Domain</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__block footer__contact">
+                <p class="contact__item"><i class="fa fa-phone contact__icon"></i> 0000-0000-0000</p>
+                <p class="contact__item"><i class="fa fa-envelope contact__icon" aria-hidden="true"></i> testemail@email
+                    .com</p>
+                <p class="contact__item">Lorem ipsum dolor sit amet.</p>
+                <p class="contact__item">Lorem ipsum dolor.</p>
+            </div>
+        </div>
+    </footer>
 </div>
 
+<script src="slider.js"></script>
 </body>
 </html>
